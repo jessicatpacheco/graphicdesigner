@@ -1,2 +1,2 @@
-# graphicdesigner
-Personal Design Portfolio
+# graphic designer
+This is my personal design portfolio
