@@ -824,6 +824,19 @@ p {
   margin-bottom: 20px;
 }
 
+#blue-header{
+
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #42ab9e;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  opacity: .4;
+  margin-bottom: 5px;
+}
+
+
 .fh5co-lead {
   font-size: 18px;
 }
