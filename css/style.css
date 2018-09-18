@@ -16,6 +16,13 @@
   margin-left: 0px;
 }
 
+.pic-responsive{
+      /* The image used */
+    background-image: url("../images/wedding-jessica/T&C_J&J-1315.jpg");
+
+    /* Full height */
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -237,8 +244,9 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header {
-    background: #fff;
+    background: 0;
     top: 0;
+   
   }
 }
 #fh5co-header #fh5co-logo {
@@ -246,9 +254,14 @@ p {
   line-height: 1.2;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+
+*@media screen and (max-width: 768px) {
   #fh5co-header #fh5co-logo {
     top: -2px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
   }
 }
 #fh5co-header #fh5co-logo a {
@@ -269,9 +282,35 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header #fh5co-main-nav {
-    display: none;
+    /*display: none;*/
+    display: inline-block;
+    float: none;
+    font-size: 16px;
   }
 }
+@media screen and (max-width: 375px) {
+  #fh5co-header #fh5co-main-nav {
+    /*display: none;*/
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  #toplogo {
+    /*display: none;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+}
+
 #fh5co-header #fh5co-main-nav ul {
   padding: 0;
   margin: 4px 0 0 0;
@@ -315,12 +354,25 @@ p {
   font-size: 30px;
   color: #000;
 }
+
+#fh5co-main-nav{
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-main-nav {
+    padding-top: 5px;
+  }
+}
+
+
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
   font-family: "Roboto Slab", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   margin-left: 30px;
   border-bottom: 2px solid transparent;
+
 }
 #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a:hover {
   text-decoration: none;
@@ -813,6 +865,7 @@ p {
   bottom: 20px;
 }
 
+
 .section-heading .fh5co-section-title {
   font-size: 11px;
   letter-spacing: 2px;
@@ -823,19 +876,6 @@ p {
   opacity: .4;
   margin-bottom: 20px;
 }
-
-#blue-header{
-
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #42ab9e;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  opacity: .4;
-  margin-bottom: 5px;
-}
-
 
 .fh5co-lead {
   font-size: 18px;
