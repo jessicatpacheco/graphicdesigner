@@ -334,6 +334,14 @@
 
 	};
 
+	var enableAllWaypointsIfHasAnchor = function () {
+		if (/.*#(.*)/.test(location.href)) {
+			console.log('starting')
+			// Waypoint.disableAll()
+			Waypoint.triggerAll()
+			console.log('ending')
+		}
+	}
 
 	// Document on load.
 	$(function(){
@@ -356,7 +364,8 @@
 
 		// Animations
 		contentWayPoint();
-		
+
+		enableAllWaypointsIfHasAnchor();
 		
 
 	});
