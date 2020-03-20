@@ -7,6 +7,7 @@
 
 }
 
+
 .pic{
   width: 450px;
   height: auto;
@@ -585,6 +586,30 @@ p {
   }
 }
 
+#fh5co-portfolio {
+  padding-top: 4em;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-portfolio {
+    padding-top: 4em;
+    padding-bottom: 0;
+  }
+}
+
+.fh5co-portfolio2 {
+    padding-top: 0;
+    padding-bottom: 72px;
+  }
+
+@media screen and (max-width: 768px) {
+  #fh5co-portfolio2 {
+    padding-top: 0;
+    padding-bottom: 72px;
+  }
+}
+
 #fh5co-content figure {
   margin-bottom: 30px;
 }
@@ -1025,6 +1050,9 @@ p {
     float: none;
   }
 }
+
+
+
 /* Arrow Animations */
 @-webkit-keyframes ani-mouse {
   0% {
